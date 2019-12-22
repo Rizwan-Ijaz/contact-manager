@@ -12,15 +12,13 @@ const Header = (props) => {
 
                     <div className="navbar-collapse">
                         <ul className="navbar-nav ml-auto">
-                            <li className="nav-item active">
-                                <Link className="nav-link" to="/">Home</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/">
+                                    <i className="fas fa-home"></i> Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/contact/add" className="nav-link">Add Contact</Link>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link disabled" href="#" tabIndex="-1"
-                                   aria-disabled="true">Disabled</a>
+                                <Link to="/contact/add" className="nav-link">
+                                    <i className="fas fa-plus"></i> Add Contact</Link>
                             </li>
                         </ul>
                     </div>
